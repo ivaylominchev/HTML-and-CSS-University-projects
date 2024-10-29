@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Дерма</title>
+</head>
+<body>
+	<form action="">
+		<fieldset>
+			<legend><h1>Формуляр</h1></legend>
+			<fieldset>
+				<legend><b>Обща информация</b></legend>
+				<table>
+					<tr>
+						<td>
+							<b><label for="name">Име:</label></b>
+						</td>
+						<td>
+							<input type="text" name="name" id="name" placeholder="Въведете инициали">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<b><label for="age">Възраст:</label></b>
+						</td>
+						<td>
+							<input type="number" name="age" id="age" min="18" max="60">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<b><label for="">Пол:</label></b>
+						</td>
+						<td>
+							<input type="radio" name="gender" id="male" value="1">
+							<label for="male">Мъж</label>
+							<input type="radio" name="gender" id="female" value="2">
+							<label for="female">Жена</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<b><label for="email">Имейл адрес:</label></b>
+						</td>
+						<td>
+							<input type="email" name="email" id="email" placeholder="Въведете имейл адрес">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<b><label for="height">Височина:</label></b>
+						</td>
+						<td>
+							<input type="number" name="height" id="height" placeholder="Въведете число" min="1">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<b><label for="weight">Тегло:</label></b>
+						</td>
+						<td>
+							<input type="number" name="weight" id="weight" placeholder="Въведете число" min="1">
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend><b>Специфична информация</b></legend>
+				<table>
+					<tr>
+						<td>
+							<b><label for="">Имате ли алергии?</label></b>
+						</td>
+						<td>
+							<input type="checkbox" name="allergies" id="1">
+							<label for="1">Никел</label>
+							<input type="checkbox" name="allergies" id="2">
+							<label for="2">Прахови акари</label>
+							<input type="checkbox" name="allergies" id="3">
+							<label for="3">Полен</label>
+							<input type="checkbox" name="allergies" id="4">
+							<label for="4">Матица на стъртилото</label><br>
+							<input type="checkbox" name="allergies" id="5">
+							<label for="5">Кожни продукти</label>
+							<input type="checkbox" name="allergies" id="6">
+							<label for="6">Латекс</label>
+							<input type="checkbox" name="allergies" id="7">
+							<label for="7">Плодовите алергии</label>
+							<input type="checkbox" name="allergies" id="8">
+							<label for="8">Дървесен прашец</label><br>
+							<input type="checkbox" name="allergies" id="9">
+							<label for="9">Кожни грижи и медикаменти</label>
+							<input type="checkbox" name="allergies" id="10">
+							<label for="10">Мграва или меридания</label>
+							<input type="checkbox" name="allergies" id="11">
+							<label for="11">Мляко или млечни продукти</label><br>
+							<input type="checkbox" name="allergies" id="12">
+							<label for="12">Ядки</label>
+							<input type="checkbox" name="allergies" id="13">
+							<label for="13">Рибни продукти</label>
+							<input type="checkbox" name="allergies" id="14">
+							<label for="14">Яйца</label>
+							<input type="checkbox" name="allergies" id="15">
+							<label for="15">Соя</label>
+							<input type="checkbox" name="allergies" id="16">
+							<label for="16">Спанак</label>
+							<input type="checkbox" name="allergies" id="17">
+							<label for="17">Прахови и химически субстанции</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<b><label for="">Колко често изпитвате <br> алергична реакция?</label></b>
+						</td>
+						<td><br>
+							<input type="radio" name="frequency" id="sometimes">
+							<label for="sometimes">Понякога</label>
+							<input type="radio" name="frequency" id="often">
+							<label for="often">Често</label>
+							<input type="radio" name="frequency" id="always">
+							<label for="always">Винаги</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<b><label for="">Какви симптоми изпитвате <br> при алергична реакция?</label></b>
+						</td>
+						<td><br>
+							<input type="checkbox" name="symptoms" id="1">
+							<label for="1">Обрив</label><br>
+							<input type="checkbox" name="symptoms" id="2">
+							<label for="2">Сърбеж</label><br>
+							<input type="checkbox" name="symptoms" id="3">
+							<label for="3">Оток</label><br>
+							<input type="checkbox" name="symptoms" id="4">
+							<label for="4">Трудности с дишането</label><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<b><label for="">Приемате ли в момента други <br> лекарства против алергии?</label></b>
+						</td>
+						<td><br>
+							<input type="checkbox" name="medicines" id="1">
+							<label for="1">H1 Антихистамини</label><br>
+							<input type="checkbox" name="medicines" id="2">
+							<label for="2">H2 Антихистамини</label><br>
+							<input type="checkbox" name="medicines" id="3">
+							<label for="3">Клетъчни стабилизатори</label><br>
+							<input type="checkbox" name="medicines" id="4">
+							<label for="4">Деконгестанти</label><br>
+							<input type="checkbox" name="medicines" id="5">
+							<label for="5">Кортикостероиди</label><br>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend><b>Съпровождащи заболявания</b></legend>
+				<table>
+					<tr>
+						<td>
+							<b><label for="">Отбележете вродени или <br> съпровождащи заболявания.</label></b>
+						</td>
+						<td>
+							<input type="checkbox" name="diseases" id="1">
+							<label for="1">Хипертония</label><br>
+							<input type="checkbox" name="diseases" id="2">
+							<label for="2">Астма</label><br>
+							<input type="checkbox" name="diseases" id="3">
+							<label for="3">Диабет</label><br>
+							<input type="checkbox" name="diseases" id="4">
+							<label for="4">ХОББ</label><br>
+							<input type="checkbox" name="diseases" id="5">
+							<label for="5">Бъбречно заболяване</label><br>
+							<input type="checkbox" name="diseases" id="6">
+							<label for="6">Деменция</label><br>
+							<input type="checkbox" name="diseases" id="7">
+							<label for="7">Алцхаймер</label><br>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend><b>Въпроси</b></legend>
+				<table>
+					<tr>
+						<td>
+							<b><label for="">Имате ли в близкото си семейство хора с кожни заболявания?</label></b>
+						</td>
+						<td>
+							<input type="radio" name="skin" id="yes" value="1">
+							<label for="yes">Да</label>
+							<input type="radio" name="skin" id="no" value="2">
+							<label for="no">Не</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<b><label for="">Консумирате ли редовно витамини или добавки за кожата?</label></b>
+						</td>
+						<td>
+							<input type="radio" name="vitamins" id="yes" value="1">
+							<label for="yes">Да</label>
+							<input type="radio" name="vitamins" id="no" value="2">
+							<label for="no">Не</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<b><label for="">Участие в клинично проучване в рамките на 60 дни преди скрининга.</label></b>
+						</td>
+						<td>
+							<input type="radio" name="study" id="yes" value="1">
+							<label for="yes">Да</label>
+							<input type="radio" name="study" id="no" value="2">
+							<label for="no">Не</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<b><label for="">Повишена телесна температура (≥39,0°C аксиларна).</label></b>
+						</td>
+						<td>
+							<input type="radio" name="temperature" id="yes" value="1">
+							<label for="yes">Да</label>
+							<input type="radio" name="temperature" id="no" value="2">
+							<label for="no">Не</label>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend><b>Прием на терация</b></legend>
+				<table>
+					<tr>
+						<td>
+							<b><label for="therapy">Изберете прием на предписаната терапия</label></b>
+						</td>
+						<td>
+							<select name="therapy" id="therapy">
+								<option value="">-----</option>
+								<option value="5 days">5 дни</option>
+								<option value="7 days">7 дни</option>
+								<option value="10 days">10 дни</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+			<br>
+			<input type="submit" value="Изпрати">
+		</fieldset>
+	</form>
+</body>
+</html>
