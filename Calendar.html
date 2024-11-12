@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calendar</title>
+	<style>
+		.grid input[type=button]{
+			width: 50px;
+			padding: 2px 0px 8px 2px;
+			text-align: left;
+		}
+		.grid div {
+			margin-bottom: 8px;
+		}
+		span{
+			width: 50px;
+			text-align: center;
+			display: inline-block;
+		}
+		.days{
+			background: #E9E9E9;
+			border: 1px solid #c9c9c9;
+			width: 374px;
+			border-radius: 5px;
+			font-size: 12px;
+			padding: 4px 0px 3px 0px;
+			margin-bottom: 6px;
+		}
+		.heading{
+			width: 374px;
+			display: flex;
+			justify-content: space-between;
+			background: #E9E9E9;
+			border: 1px solid #c9c9c9;
+			padding: 8px 24px;
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+<body>
+	<div class="heading">
+		<div class="col">
+			<input type="button" value="<<">
+			<input type="button" value="<">
+		</div>
+		<div class="col">
+		<strong>December 2007</strong>
+	</div>
+	<div class="col">
+			<input type="button" value=">">
+			<input type="button" value=">>">
+	</div>
+	</div>
+	
+	<div class="days">
+		<span>Sun</span>
+		<span>Mon</span>
+		<span>Tue</span>
+		<span>Wed</span>
+		<span>Thu</span>
+		<span>Fri</span>
+		<span>Sat</span>
+	</div>
+	<div class="grid">
+		<div>
+			<input type="button" value="25" disabled>
+			<input type="button" value="26" disabled>
+			<input type="button" value="27" disabled>
+			<input type="button" value="28" disabled>
+			<input type="button" value="29" disabled>
+			<input type="button" value="30" disabled>
+			<input type="button" value="1">
+		</div>
+		<div>
+			<input type="button" value="2">
+			<input type="button" value="3">
+			<input type="button" value="4">
+			<input type="button" value="5">
+			<input type="button" value="6">
+			<input type="button" value="7">
+			<input type="button" value="8">
+		</div>
+		<div>
+			<input type="button" value="9">
+			<input type="button" value="10">
+			<input type="button" value="11">
+			<input type="button" value="12">
+			<input type="button" value="13">
+			<input type="button" value="14">
+			<input type="button" value="15">
+		</div>
+		<div>
+			<input type="button" value="16">
+			<input type="button" value="17">
+			<input type="button" value="18">
+			<input type="button" value="19">
+			<input type="button" value="20">
+			<input type="button" value="21">
+			<input type="button" value="22">
+		</div>
+		<div>
+			<input type="button" value="23">
+			<input type="button" value="24">
+			<input type="button" value="25">
+			<input type="button" value="26">
+			<input type="button" value="27">
+			<input type="button" value="28">
+			<input type="button" value="29">
+		</div>
+		<div>
+			<input type="button" value="30">
+			<input type="button" value="31">
+			<input type="button" value="1" disabled>
+			<input type="button" value="2" disabled>
+			<input type="button" value="3" disabled>
+			<input type="button" value="4" disabled>
+			<input type="button" value="5" disabled>
+		</div>
+	</div>
+</body>
+</html>
