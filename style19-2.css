@@ -59,22 +59,57 @@ html, body{
 	content: "";
 	top: 0;
 	left: 0;
-	object-fit: over;
-
 }
 .bg-image-overlay{
 	position: relative;
 	height: 1050px;
+	padding-top: 250px;
+	box-sizing: border-box;
 }
 .container{
 
 }
 .box-gray{
 	color: white;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 35px;
+	padding: 10px 0px;
+	background: rgba(39, 46, 49, 0.7);
 }
 .title-1{
-
+	width: 713px;
+	margin-bottom: 12px;
 }
 .title-2{
+	width: 990px;
+}
+.bg-services{
+	margin-top:260px;
+	background: #4baff;
+	padding: 80px 0px 75px 0px;
+	color: white;
+}
+.service-title{
+	font-size: 28px;
+	display: inline-block;
+	padding-bottom: 8px;
+}
+.underline{
+	border-bottom: solid 2px white;
+}
+.service-item{
+	flex: 0 0 25%;
+	box-sizing: border-box;
+}
+.service-item:not(.service-item:last-of-type){
+	padding-right: 40px;
+}
+.service-item-title{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.service-item-text{
 
 }
