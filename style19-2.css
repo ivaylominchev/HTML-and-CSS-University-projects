@@ -20,6 +20,7 @@ html, body{
 .navbar{
 	justify-content: space-between;
 	align-items: center;
+	padding: 55px 0px;
 }
 .site-title{
 	color: white;
@@ -46,5 +47,34 @@ html, body{
 .active, .nav-link:hover{
 	border: solid 3px #4bcaff;
 	color: #4bcaff;
+
+}
+.bg-image-overlay:before{
+	filter: grayscale(50%) sepia(60%) brightness(80%) hue-rotate(180deg);
+	background: url('https://i.ibb.co/DY3DptD/photo.jpg');
+	position: absolute;
+	z-inde: -1;
+	height: 100%;
+	width: 100%;
+	content: "";
+	top: 0;
+	left: 0;
+	object-fit: over;
+
+}
+.bg-image-overlay{
+	position: relative;
+	height: 1050px;
+}
+.container{
+
+}
+.box-gray{
+	color: white;
+}
+.title-1{
+
+}
+.title-2{
 
 }
