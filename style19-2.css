@@ -86,17 +86,18 @@ html, body{
 }
 .bg-services{
 	margin-top:260px;
-	background: #4baff;
+	background: #4bcaff;
 	padding: 80px 0px 75px 0px;
 	color: white;
 }
-.service-title{
+.services-title{
 	font-size: 28px;
-	display: inline-block;
-	padding-bottom: 8px;
+	padding-bottom: 10px;
 }
 .underline{
 	border-bottom: solid 2px white;
+	display: inline-block;
+	padding-bottom: 8px;
 }
 .service-item{
 	flex: 0 0 25%;
