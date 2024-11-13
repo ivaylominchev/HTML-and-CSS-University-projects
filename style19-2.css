@@ -11,22 +11,27 @@ html, body{
 }
 .contaner{
 	width: 1170px;
-	height: ;
+	margin: 0 auto;
 }
 .d-flex{
-
+	display: flex;
+	flex-wrap: wrap;
 } 
 .navbar{
-
+	justify-content: space-between;
+	align-items: center;
 }
 .site-title{
-
+	color: white;
+	font-size: 24px;
 }
 .text-blue{
-
+	color:#4bcaff;
 }
 .nav{
-
+	list-style-type: none;
+	padding-left: 0px;
+	margin: 0;
 }
 .nav-item{
 
