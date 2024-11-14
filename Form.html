@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend><b>Profile</b></legend>
+			<h1>Here you can create your profile!</h1>
+			<fieldset>
+				<legend><b>Personal Info</b></legend>
+				<b><label for="gender">Mr/Mrs</label></b>
+				<select name="gender" id="gender">
+					<option value="Value 1">Mr</option>
+					<option value="Value 2">Mrs</option>
+				</select><br>
+				<b><label for="title">Title</label></b>
+				<input type="text" name="title" id="title">
+				<br>
+				<b><label for="name">Name</label></b>
+				<input type="text" name="name" id="name">
+				<br>
+				<b><label for="lastname">Last Name</label></b>
+				<input type="text" name="lastname" id="lastname">
+				<br>
+				<b><label for="username">User name</label></b>
+				<input type="text" name="username" id="username">
+				<br>
+				<b><label for="passw">Password</label></b>
+				<input type="password" name="passw" id="passw">
+				<br>
+				<b><label for="passwr">Password Repeat</label></b>
+				<input type="password" name="passwr" id="passwr">
+			</fieldset>
+			<fieldset>
+				<legend><b>Business Info</b></legend>
+				<b><label for="country">Country</label></b>
+				<select name="country" id="country">
+					<option value="">Please select</option>
+					<option value="Value 1">Bulgaria</option>
+					<option value="Value 2">England</option>
+					<option value="Value 3">USA</option>
+				</select>
+				<br>
+				<b><label for="uni">University</label></b>
+				<select name="uni" id="uni">
+					<option value="">Please select</option>
+					<option value="1">Икономически университет – Варна</option>
+					<option value="2">Harvard University</option>
+					<option value="3">University of Cambridge</option>
+				</select>
+				<br>
+				<b><label for="adduni">Add new University</label></b>
+				<input type="checkbox" name="adduni" id="adduni">
+				<br>
+				<b><label for="email">E-mail</label></b>
+				<input type="email" name="email" id="email">
+			</fieldset>
+		</fieldset>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
