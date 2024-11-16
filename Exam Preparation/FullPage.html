@@ -14,6 +14,7 @@
 			verticle-align: top;
 		}
 		.menu{
+			display: inline-block;
 			padding-top: 15px;
 		}
 		.nav-bar{
@@ -22,6 +23,9 @@
 		}
 		.nav{
 			list-style-type: none;
+			margin: 0;
+			padding-top: 8px;
+			vertical-align: top;
 			text-align: center;
 		}
 		.nav-item{
@@ -29,7 +33,6 @@
 			box-shadow: 0px 8px 6px -6px black;
 			border-bottom: solid 3px #770000;
 			height: 40px;
-			background: green;
 		}
 		.nav-link{
 			display: inline-block;
@@ -41,6 +44,19 @@
 		}
 		.nav-link:hover{
 			color: #770000;
+		}
+		.container{
+			display: inline-block;
+			justify-content: center;
+		}
+		.main-section{
+			display: inline-block;
+		}
+		.left{
+			display: inline-block;
+		}
+		.right{
+			display: inline-block;
 		}
 		
 	</style>
@@ -77,203 +93,204 @@
 				</ul>
 			</div>
 		</div>
-		
 	</header>
-	<aside>
-		<div class="left">
-			<div class="image-left">
-				<img src="http://placehold.co/164x230" alt="">
-			</div>
-			<div class="text">
-				ISSN 1310-0343 - печатно
-			</div>
-			<div class="text">
-				ISSN 2367-6949 - онлайн
-			</div>
-			<div class="main-heading">
-				Текущо издание
-			</div>
-			<div class="article">
-				Издание 2019
-			</div>
-			<div class="left-ul">
-				<ul class="left-list">
-					<li class="left-item">
-						<a href="#" class="left-link">бр. 4/2019 г.</a>
-					</li>
-					<li class="left-item">
-						<a href="#" class="left-link">бр. 3/2019 г.</a>
-					</li>
-					<li class="left-item">
-						<a href="#" class="left-link">бр. 2/2019 г.</a>
-					</li>
-					<li class="left-item">
-						<a href="#" class="left-link">бр. 1/2019 г.</a>
-					</li>
-				</ul>
-			</div>
-			<div class="article">
-				Издание 2018
-			</div>
-			<div class="article">
-				Издание 2017
-			</div>
-			<div class="article">
-				Издание 2016
-			</div>
-		</div>
-	</aside>
-	<section>
-		<div class="main-section">
-			<div class="section-item">
-				<div class="name">
-					Мария Станимирова Токушева
+	<div class="container">
+		<aside>
+			<div class="left">
+				<div class="image-left">
+					<img src="http://placehold.co/164x230" alt="">
 				</div>
-				<div class="download">
-					<a href="#" class="download-link">
-						Изтегли статията
-					</a>
+				<div class="text">
+					ISSN 1310-0343 - печатно
 				</div>
-				<div class="section-text">
-					Модел за определяне на оптимална производнвена програма
+				<div class="text">
+					ISSN 2367-6949 - онлайн
+				</div>
+				<div class="main-heading">
+					Текущо издание
+				</div>
+				<div class="article">
+					Издание 2019
+				</div>
+				<div class="left-ul">
+					<ul class="left-list">
+						<li class="left-item">
+							<a href="#" class="left-link">бр. 4/2019 г.</a>
+						</li>
+						<li class="left-item">
+							<a href="#" class="left-link">бр. 3/2019 г.</a>
+						</li>
+						<li class="left-item">
+							<a href="#" class="left-link">бр. 2/2019 г.</a>
+						</li>
+						<li class="left-item">
+							<a href="#" class="left-link">бр. 1/2019 г.</a>
+						</li>
+					</ul>
+				</div>
+				<div class="article">
+					Издание 2018
+				</div>
+				<div class="article">
+					Издание 2017
+				</div>
+				<div class="article">
+					Издание 2016
 				</div>
 			</div>
-			<div class="section-item">
-				<div class="name">
-					Красимира Найденова
+		</aside>
+		<section>
+			<div class="main-section">
+				<div class="section-item">
+					<div class="name">
+						Мария Станимирова Токушева
+					</div>
+					<div class="download">
+						<a href="#" class="download-link">
+							Изтегли статията
+						</a>
+					</div>
+					<div class="section-text">
+						Модел за определяне на оптимална производнвена програма
+					</div>
 				</div>
-				<div class="download">
-					<a href="#" class="download-link">
-						Изтегли статията
-					</a>
+				<div class="section-item">
+					<div class="name">
+						Красимира Найденова
+					</div>
+					<div class="download">
+						<a href="#" class="download-link">
+							Изтегли статията
+						</a>
+					</div>
+					<div class="section-text">
+						Банки или пазари (поглед върху полезността им за България по време на кризата от 2008 г. и след нея)
+					</div>
 				</div>
-				<div class="section-text">
-					Банки или пазари (поглед върху полезността им за България по време на кризата от 2008 г. и след нея)
+				<div class="section-item">
+					<div class="name">
+						Радина Димитрова Момчилова
+					</div>
+					<div class="download">
+						<a href="#" class="download-link">
+							Изтегли статията
+						</a>
+					</div>
+					<div class="section-text">
+						Банковият персонал - фактор за клиентската миграция в дребното банкиране
+					</div>
+				</div>
+				<div class="section-item">
+					<div class="name">
+						Андрияна Андреева, Андрей Александров
+					</div>
+					<div class="download">
+						<a href="#" class="download-link">
+							Изтегли статията
+						</a>
+					</div>
+					<div class="section-text">
+						За действителността на забраните за упражняване на конкурентна дейност паралелно и/или след прекратяване на трудовия договор
+					</div>
+				</div>
+				<div class="section-item">
+					<div class="name">
+						Златозар Йорданов
+					</div>
+					<div class="download">
+						<a href="#" class="download-link">
+							Изтегли статията
+						</a>
+					</div>
+					<div class="section-text">
+						За някои различия в уредбата на търговския представител в Търговския закон и в правото на Европейския съюз
+					</div>
+				</div>
+				<div class="section-item">
+					<div class="name">
+						Винцислав Антонов Савов
+					</div>
+					<div class="download">
+						<a href="#" class="download-link">
+							Изтегли статията
+						</a>
+					</div>
+					<div class="section-text">
+						Прехвърляне на дружествени дялове в капитала на ООД. Актуални нормативни промени
+					</div>
+				</div>
+				<div class="section-item">
+					<div class="name">
+						Жана Красимирова Лечева
+					</div>
+					<div class="download">
+						<a href="#" class="download-link">
+							Изтегли статията
+						</a>
+					</div>
+					<div class="section-text">
+						Сравнително-правен анализ на неустойката и търговския залог
+					</div>
+				</div>
+				<div class="section-item">
+					<div class="name">
+						Тамара Ангелова Влайкова
+					</div>
+					<div class="download">
+						<a href="#" class="download-link">
+							Изтегли статията
+						</a>
+					</div>
+					<div class="section-text">
+						Регламент № 1672/2018 на ЕП и на Съвета относно контрола на паричните средства, които се внясат в съюза или изнасят от него и санкциита в българското законодателство при недеклариране на парични средства
+					</div>
 				</div>
 			</div>
-			<div class="section-item">
-				<div class="name">
-					Радина Димитрова Момчилова
+		</section>
+		<aside>
+			<div class="right">
+				<div class="image-right">
+					<img src="http://placehold.co/161x161" alt="">
 				</div>
-				<div class="download">
-					<a href="#" class="download-link">
-						Изтегли статията
-					</a>
+				<div class="right-heading">
+					Търси статии:
 				</div>
-				<div class="section-text">
-					Банковият персонал - фактор за клиентската миграция в дребното банкиране
+				<div class="right-ul">
+					<ul class="right-list">
+						<li class="right-item">
+							<a href="#" class="right-link">по година</a>
+						</li>
+						<li class="right-item">
+							<a href="#" class="right-link">по заглавие</a>
+						</li>
+						<li class="right-item">
+							<a href="#" class="right-link">по автор</a>
+						</li>
+					</ul>
 				</div>
-			</div>
-			<div class="section-item">
-				<div class="name">
-					Андрияна Андреева, Андрей Александров
+				<div class="right-contacts">
+					Контакти
 				</div>
-				<div class="download">
-					<a href="#" class="download-link">
-						Изтегли статията
-					</a>
+				<div class="right-text">
+					Икономически университет - Варна
 				</div>
-				<div class="section-text">
-					За действителността на забраните за упражняване на конкурентна дейност паралелно и/или след прекратяване на трудовия договор
+				<div class="address">
+					бул. „Княз Борис I“ № 77 
 				</div>
-			</div>
-			<div class="section-item">
-				<div class="name">
-					Златозар Йорданов
+				<div class="address">
+					9002 - гр. Варна, България
 				</div>
-				<div class="download">
-					<a href="#" class="download-link">
-						Изтегли статията
-					</a>
+				<div class="right-text2">
+					Росица Заркова - технически секретар
 				</div>
-				<div class="section-text">
-					За някои различия в уредбата на търговския представител в Търговския закон и в правото на Европейския съюз
+				<div class="telephone">
+					<img src="D:\GitHub\HTML-and-CSS-University-projects\Exam Preparation\Images\smartphone-call.png" alt="phone">0882 164 848
 				</div>
-			</div>
-			<div class="section-item">
-				<div class="name">
-					Винцислав Антонов Савов
-				</div>
-				<div class="download">
-					<a href="#" class="download-link">
-						Изтегли статията
-					</a>
-				</div>
-				<div class="section-text">
-					Прехвърляне на дружествени дялове в капитала на ООД. Актуални нормативни промени
+				<div class="email">
+					<img src="D:\GitHub\HTML-and-CSS-University-projects\Exam Preparation\Images\email.png" alt="email">sp.Izvestiya@ue-varna.bg
 				</div>
 			</div>
-			<div class="section-item">
-				<div class="name">
-					Жана Красимирова Лечева
-				</div>
-				<div class="download">
-					<a href="#" class="download-link">
-						Изтегли статията
-					</a>
-				</div>
-				<div class="section-text">
-					Сравнително-правен анализ на неустойката и търговския залог
-				</div>
-			</div>
-			<div class="section-item">
-				<div class="name">
-					Тамара Ангелова Влайкова
-				</div>
-				<div class="download">
-					<a href="#" class="download-link">
-						Изтегли статията
-					</a>
-				</div>
-				<div class="section-text">
-					Регламент № 1672/2018 на ЕП и на Съвета относно контрола на паричните средства, които се внясат в съюза или изнасят от него и санкциита в българското законодателство при недеклариране на парични средства
-				</div>
-			</div>
-		</div>
-	</section>
-	<aside>
-		<div class="right">
-			<div class="image-right">
-				<img src="http://placehold.co/161x161" alt="">
-			</div>
-			<div class="right-heading">
-				Търси статии:
-			</div>
-			<div class="right-ul">
-				<ul class="right-list">
-					<li class="right-item">
-						<a href="#" class="right-link">по година</a>
-					</li>
-					<li class="right-item">
-						<a href="#" class="right-link">по заглавие</a>
-					</li>
-					<li class="right-item">
-						<a href="#" class="right-link">по автор</a>
-					</li>
-				</ul>
-			</div>
-			<div class="right-contacts">
-				Контакти
-			</div>
-			<div class="right-text">
-				Икономически университет - Варна
-			</div>
-			<div class="address">
-				бул. „Княз Борис I“ № 77 
-			</div>
-			<div class="address">
-				9002 - гр. Варна, България
-			</div>
-			<div class="right-text2">
-				Росица Заркова - технически секретар
-			</div>
-			<div class="telephone">
-				<img src="D:\GitHub\HTML-and-CSS-University-projects\Exam Preparation\Images\smartphone-call.png" alt="phone">0882 164 848
-			</div>
-			<div class="email">
-				<img src="D:\GitHub\HTML-and-CSS-University-projects\Exam Preparation\Images\email.png" alt="email">sp.Izvestiya@ue-varna.bg
-			</div>
-		</div>
-	</aside>
+		</aside>
+	</div>
 </body>
 </html>
