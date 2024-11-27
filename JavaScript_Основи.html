@@ -13,7 +13,7 @@
 				console.log(i);
 			}
 		}
-		task1();
+		// task1();
 
 		const task2 = () => {
 			let r = '';
@@ -22,7 +22,7 @@
 			}
 			console.log(r)
 		}
-		task2();
+		// task2();
 
 		const task3 = () => {
 			let w1 = prompt('word 1');
@@ -37,7 +37,7 @@
 				console.log('both words have the same length')
 			}
 		}
-		/*task3();*/
+		// task3();
 
 		const task4 = () => {
 			let n = prompt('number');
@@ -71,7 +71,25 @@
 			}
 			console.log(sum)
 		}
-		task6();
+		// task6();
+
+		const task7 = () => {
+			let h = 5;
+			let u = 2;
+			let n = 1;
+			let d = 1;
+			let a = u;
+
+			while(a < h){
+				a = a - n;
+				d++;
+				if (a + u >= h){
+					console.log(d);
+				}
+				a = a + u;
+			}	
+		}
+		task7();
 	</script>
 </body>
 </html>
