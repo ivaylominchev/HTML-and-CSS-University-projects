@@ -6,6 +6,10 @@
 	<title>Document</title>
 </head>
 <body>
+	<h1></h1>
+	<input type="button" class="up" value="Нагоре">
+	<input type="button" class="correct" value="Позна">
+	<input type="button" class="down" value="Надолу">
 
 	<script>
 		const task1 = () => {
@@ -89,7 +93,35 @@
 				a = a + u;
 			}	
 		}
-		task7();
+		// task7();
+
+		const task8 = () => {
+			const randomNum = (min, max) => {
+				return Math.floor(Math.random()*(max - min + 1) + min);
+			}
+
+			let max = 1000;
+			let min = 1;
+			let rnd = randomNum(min, max);
+
+			let up = document.querySelector('.up');
+			let down = document.querySelector('.down');
+			let h1 = document.querySelector('h1');
+			h1.innerText = rnd;
+			
+			up.addEventListener('click', () => {
+				min = rnd + 1;
+				rnd = randomNum(min, max);
+				h1.innerText = rnd;
+			});
+
+			down.addEventListener('click', () => {
+				max = rnd - 1;
+				rnd = randomNum(min, max);
+				h1.innerText = rnd;
+			});
+		}
+		task8();
 	</script>
 </body>
 </html>
