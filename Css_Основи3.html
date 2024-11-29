@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hello, world!</title>
+      <style>
+        body{
+          font-family: "Segoe UI";
+        }
+        .container{
+          width:1200px;
+          margin: 0 auto;
+        }
+        .row{
+          display:flex;
+          flex-direction: row;
+        }
+        .col-10{
+          flex: 0 0 auto;
+          width: 100%;
+          padding:0px 12px;
+        }
+        .text-center{
+          text-align:center;
+        }
+        .col-5{
+          flex: 0 0 auto;
+          width: 50%;
+          padding:0px 12px;
+        }
+        .col-3{
+          flex: 0 0 auto;
+          width: 33.33333333%;
+          padding:0px 12px;
+        }
+        .form-label{
+          display:block;
+          margin-bottom:8px;
+        }
+        .form-control{
+          display: block;
+          width: 100%;
+          padding: .375rem .75rem;
+          font-size: 1rem;
+          font-weight: 400;
+          line-height: 1.5;
+          color: #212529;
+          background-color: #fff;
+          background-clip: padding-box;
+          border: 1px solid #ced4da;
+          box-sizing:border-box;
+        }
+        .mt-10 {
+          margin-top:10px;
+        }
+        .link-primary{
+          color:#0a58ca;
+        }
+        .btn-primary{
+          background:#0a58ca;
+        }
+        .btn{
+          display: inline-block;
+          color: white;
+          text-align: center;
+          vertical-align: middle;
+          border: 1px solid transparent;
+          padding: 8px 12px;
+          border-radius: 4px;
+        }
+ 
+      </style>
+    </head>
+    <body>
+    <div class="container">
+        <div class="row mt-10">
+            <div class="col-10 text-center">
+                <h1>Вход в системата</h1> 
+            </div>
+        </div>
+        <div class="row mt-10">
+            <div class="col-5">
+                <label for="" class="form-label">Имейл</label>
+                <input type="email" class="form-control" placeholder="Text">
+            </div>
+            <div class="col-5">
+                <label for="" class="form-label">Парола</label>
+                <input type="password" class="form-control" placeholder="Text">
+            </div>
+        </div>
+        <div class="row text-center mt-10">
+            <div class="col-3">
+                <div>
+                    <input type="checkbox">
+                    <label>Не ме отписвай автоматично</label>
+                </div>
+            </div>
+            <div class="col-3">
+                <a href="#" class="link-primary">Нямате профил? Регистрирайте се</a>
+            </div>
+            <div class="col-3">
+                <a href="#" class="link-primary">Забравена парола</a>
+            </div>
+      </div>
+      <div class="row text-center mt-10">
+            <div class="col-10">
+                <input type="submit" class="btn btn-primary" value="Потвърди">
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
