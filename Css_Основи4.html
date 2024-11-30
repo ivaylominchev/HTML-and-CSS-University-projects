@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.nav{
+			background: rgb(43, 102, 102);
+			padding:10px;
+		}
+		.nav ul{
+			text-align: center;
+		}
+		.reset-list{
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+		}
+		.nav-item{
+			display: inline-block;
+			padding:0 10px;
+		}
+		.nav-item:not(:last-of-type){
+			border-right: 2px solid white;
+		}
+		.nav-item > a{
+			color: white;
+			text-decoration: none;
+			font-family: Arial;
+			font-weight: bold;
+			padding: 10px;
+			display: inline-block;
+		}
+		.nav-item a:hover{
+			background: white;
+			color: rdg(42, 102, 102);
+		}
+	</style>
+</head>
+<body>
+	<div class="nav">
+		<ul class="reset-list">
+			<li class="nav-item">
+				<a href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a href="#">About</a>
+			</li>
+			<li class="nav-item">
+				<a href="#">Servicess</a>
+			</li>
+			<li class="nav-item">
+				<a href="#">Contact</a>
+			</li>
+
+		</ul>
+	</div>
+</body>
+</html>
