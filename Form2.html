@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form action="">
+		<fieldset>
+			<table>
+				<tr>
+					<th colspan="2">Pizza Shop 2.0</th>
+				</tr>
+				<tr>
+					<td>
+						<label for="name">Name</label>
+					</td>
+					<td>
+						<input type="text" placeholder="enter your name">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="">Pizza Topping</label>
+					</td>
+					<td>
+						<input type="radio" id="sup" name="topping" value="1">
+						<label for="sup">Supreme</label>
+						<br>
+						<input type="radio" id="veg" name="topping" value="2">
+						<label for="veg">Vegetarian</label>
+						<br>
+						<input type="radio" id="haw" name="topping" value="3">
+						<label for="haw">Hawaiian</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="sauce">Pizza Sauce</label>
+					</td>
+					<td>
+						<select name="" id="">
+							<option value="">-----</option>
+							<option value="1" selected>Tomato</option>
+							<option value="2">Sour Cream</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="">Optional Extrass</label>
+					</td>
+					<td>
+						<input type="hidden" name="confirm_cheese" value="0">
+						<input type="checkbox" id="cheese" value="1" name="confirm_cheese">
+						<label for="cheese">Extra cheese</label>
+
+						<input type="checkbox" id="glutten">
+						<label for="glutten">Glutten Free Base</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="upload">Have a discout coupon?</label>
+					</td>
+					<td>
+						<input type="file" id="upload">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="size">Custom Pizza Size</label>
+					</td>
+					<td>
+						<input type="range" min="30" max="60" step="5" value="35">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<label for="instructions">Delivery Instructions</label>
+						<br>
+						<textarea name="" id="" cols="80" rows="5"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					   other data
+				    </td>
+					<td>
+						<input type="text">
+						<br>
+						<input type="text">
+						<br>
+						<input type="button" value="hey im a button">
+						<br>
+						<input type="reset">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="submit" value="Send my Order">
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>
