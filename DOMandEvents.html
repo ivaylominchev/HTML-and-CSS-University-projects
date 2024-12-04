@@ -70,6 +70,9 @@
         .p{
             padding-bottom:12px;
         }
+        .rounded {
+            border-radius: 50px;
+        }
     </style>
 </head>
 <body>
@@ -180,7 +183,18 @@
         let task12 = document.querySelectorAll('p');
         task12[0].style.display = 'none';
         task12[task12.length - 1].style.display = 'none';
-        
+
+        let task13 = document.querySelectorAll('*');
+        task13.forEach(item => {
+            item.addEventListener('mouseenter', (e) => {
+                e.target.classList.add('rounded');
+            });
+
+            item.addEventListener('mouseleave', (e) => {
+                e.target.classList.remove('rounded');
+            });
+        });
+
     </script>
 </body>
 </html>
