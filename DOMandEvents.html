@@ -108,95 +108,95 @@
     </div>
 
     <script>
-        /*let task1 = document.querySelectorAll('a');
-        for (let i = 0; i < task1.length; i++) {
-            console.log(task1[i].innerText);
-            task1[i].href = 'https://ue-varna.bg';
-        }
+        // let task1 = document.querySelectorAll('a');
+        // for (let i = 0; i < task1.length; i++) {
+        //     console.log(task1[i].innerText);
+        //     task1[i].href = 'https://ue-varna.bg';
+        // }
 
-        task1.forEach(item => {
-            console.log(item.innerText);
-            item.href = 'https://ue-varna.bg';
-        });
+        // task1.forEach(item => {
+        //     console.log(item.innerText);
+        //     item.href = 'https://ue-varna.bg';
+        // });
 
-        let task2 = document.querySelectorAll('.title');
-        task2.forEach(item => {
-            console.log(item.innerText);
-        });
+        // let task2 = document.querySelectorAll('.title');
+        // task2.forEach(item => {
+        //     console.log(item.innerText);
+        // });
 
-        let task3 = document.querySelectorAll('p');
-        task3.forEach(item => {
-            let temp = item.innerText;
-            item.innerText = 'НОВ ПАРАГРАФ';
-            item.dataset.text = temp;
-        });
+        // let task3 = document.querySelectorAll('p');
+        // task3.forEach(item => {
+        //     let temp = item.innerText;
+        //     item.innerText = 'НОВ ПАРАГРАФ';
+        //     item.dataset.text = temp;
+        // });
 
-        let task4 = document.querySelectorAll('img');
-        task4.forEach(item => {
-            console.log(item.src);
-            item.src = "https://cataas.com/cat";
-            item.style.width = "150px";
-        });
+        // let task4 = document.querySelectorAll('img');
+        // task4.forEach(item => {
+        //     console.log(item.src);
+        //     item.src = "https://cataas.com/cat";
+        //     item.style.width = "150px";
+        // });
 
-        let task6 = document.querySelectorAll('*');
-        task6.forEach(item => {
-            console.log(item.getAttribute('class'));
-            console.log(item.className);
-        });
+        // let task6 = document.querySelectorAll('*');
+        // task6.forEach(item => {
+        //     console.log(item.getAttribute('class'));
+        //     console.log(item.className);
+        // });
 
-        let task7 = document.querySelectorAll('.columns > div');
-        task7.forEach(item => {
-            item.style.background = 'lightseagreen';
-        });
-        // task7[0].style.background
-        // task7[1].style.background
+        // let task7 = document.querySelectorAll('.columns > div');
+        // task7.forEach(item => {
+        //     item.style.background = 'lightseagreen';
+        // });
+        // // task7[0].style.background
+        // // task7[1].style.background
 
-        let task8 = document.querySelector('div.page');
-        task8.classList.remove('page');
-        task8.classList.add('page-2');
+        // let task8 = document.querySelector('div.page');
+        // task8.classList.remove('page');
+        // task8.classList.add('page-2');
 
-        let task9 = document.querySelectorAll('img');
-        task9.forEach(item => {
-            item.style.border = 'solid 5px firebrick';
-            //borderTop
-        });
+        // let task9 = document.querySelectorAll('img');
+        // task9.forEach(item => {
+        //     item.style.border = 'solid 5px firebrick';
+        //     //borderTop
+        // });
 
-        let task10 = document.querySelectorAll('img');
-        task10.forEach(item => {
-            item.addEventListener('mouseenter', (e) => {
-                //e.target.style.border = 'solid 13px gold';
-                task10.forEach(i => {
-                    i.style.border = 'solid 13px gold';
-                });
-            });
-        });
+        // let task10 = document.querySelectorAll('img');
+        // task10.forEach(item => {
+        //     item.addEventListener('mouseenter', (e) => {
+        //         //e.target.style.border = 'solid 13px gold';
+        //         task10.forEach(i => {
+        //             i.style.border = 'solid 13px gold';
+        //         });
+        //     });
+        // });
         
-        let task11 = document.querySelectorAll('a');
-        task11.forEach(item => {
-            item.addEventListener('click', (e) => {
-                e.preventDefault();
-                document.body.style.background = '#' +
-                Math.floor(Math.random()*256*256*256).toString(16).padStart(6, '0');
-            });
-        });
+        // let task11 = document.querySelectorAll('a');
+        // task11.forEach(item => {
+        //     item.addEventListener('click', (e) => {
+        //         e.preventDefault();
+        //         document.body.style.background = '#' +
+        //         Math.floor(Math.random()*256*256*256).toString(16).padStart(6, '0');
+        //     });
+        // });
 
-        let task12 = document.querySelectorAll('p');
-        task12[0].style.display = 'none';
-        task12[task12.length - 1].style.display = 'none';
+        // let task12 = document.querySelectorAll('p');
+        // task12[0].style.display = 'none';
+        // task12[task12.length - 1].style.display = 'none';
 
-        let task13 = document.querySelectorAll('*');
-        task13.forEach(item => {
-            item.addEventListener('mouseenter', (e) => { //mouseover
-                e.target.classList.add('rounded');
-            });
+        // let task13 = document.querySelectorAll('*');
+        // task13.forEach(item => {
+        //     item.addEventListener('mouseenter', (e) => { //mouseover
+        //         e.target.classList.add('rounded');
+        //     });
 
-            item.addEventListener('mouseleave', (e) => { //mouseout
-                e.target.classList.remove('rounded');
-            });
-        });
-*/
+        //     item.addEventListener('mouseleave', (e) => { //mouseout
+        //         e.target.classList.remove('rounded');
+        //     });
+        // });
+
         let arr = [5, 10, 20, 35];
-        let task14 = document.querySelector('p');
+        let task14 = document.querySelectorAll('p');
         task14.forEach((item, index) => {
             item.innerText = arr[index];
         });
