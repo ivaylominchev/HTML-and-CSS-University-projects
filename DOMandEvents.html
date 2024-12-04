@@ -108,7 +108,7 @@
     </div>
 
     <script>
-        let task1 = document.querySelectorAll('a');
+        /*let task1 = document.querySelectorAll('a');
         for (let i = 0; i < task1.length; i++) {
             console.log(task1[i].innerText);
             task1[i].href = 'https://ue-varna.bg';
@@ -194,6 +194,16 @@
                 e.target.classList.remove('rounded');
             });
         });
+*/
+        let arr = [5, 10, 20, 35];
+        let task14 = document.querySelector('p');
+        task14.forEach((item, index) => {
+            item.innerText = arr[index];
+        });
+
+        for (let i = 0; i < task14.length; i++) {
+            task14[i].innerText = arr[i];
+        }
 
     </script>
 </body>
