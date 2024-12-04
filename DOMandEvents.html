@@ -168,6 +168,15 @@
             });
         });
         
+        let task11 = document.querySelectorAll('a');
+        task11.forEach(item => {
+            item.addEventListener('click', (e) => {
+                e.preventDefault();
+                document.body.style.background = '#' +
+                Math.floor(Math.random()*256*256*256).toString(16).padStart(6, '0');
+            });
+        });
+
     </script>
 </body>
 </html>
