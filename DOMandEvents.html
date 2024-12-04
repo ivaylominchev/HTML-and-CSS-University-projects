@@ -120,6 +120,12 @@
         task2.forEach(item => {
             console.log(item.innerText);
         });
+
+        let task3 = document.querySelectorAll('p');
+        task3.forEach(item => {
+            let temp = item.innerText;
+            item.innerText = 'НОВ ПАРАГРАФ';
+        });
     </script>
 </body>
 </html>
