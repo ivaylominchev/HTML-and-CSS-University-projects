@@ -174,10 +174,17 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     //document.body.style.backgroundColor = 'red !important'; ne raboti
     //document.body.style.cssText = 'background: red !important';
     document.body.style.setProperty('background', 'red', 'important');
-
-
    });
 
+   
+   let arr = document.querySelectorAll('h2');
+   arr.forEach(item => {
+    item.addEventListener('mouseenter', (e) => {
+      let size = window.getComputedStyle(e.target).fontSize;
+      e.target.style.fontSize =  parseFloat(size) + 2 + 'px';
+
+    });
+   });
  </script>
 </body>
 </html>
