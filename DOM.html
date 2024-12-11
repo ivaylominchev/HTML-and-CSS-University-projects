@@ -164,6 +164,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
    p.parentNode.append(cP);
    p.parentNode.append(cD);
 
+   let btn = document.createElement('input');
+   btn.setAttribute('type', 'button');
+   btn.classList.add('w3-button', 'w3-teal');
+   btn.value = 'Click me';
+   document.querySelector('.w3-twothird').append(btn);
+
  </script>
 </body>
 </html>
