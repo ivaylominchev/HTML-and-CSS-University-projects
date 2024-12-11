@@ -157,6 +157,13 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
    clone.innerText += " 1";
    badge.after(clone);
 
+   let p = document.querySelector('.skills p:nth-of-type(4)');
+   let d = p.nextElementSibling;
+   let cP = p.cloneNode(true);
+   let cD = d.cloneNode(true);
+   p.parentNode.append(cP);
+   p.parentNode.append(cD);
+
  </script>
 </body>
 </html>
