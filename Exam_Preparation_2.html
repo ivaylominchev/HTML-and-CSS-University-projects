@@ -197,13 +197,28 @@
 	</div>
 	<script>
 		let links = document.querySelectorAll("#containerID a");
-		let rightBox = document.getElementById("container2ID");
+		let rightBoxItems = document.querySelectorAll("#container2ID .li2 span.white");
 
-		links.forEach( link => {
-			link.addEventListener("click", (e) =>{
-				e.preventDefault();
-				rightBox.textContent = "Съдържание: " + link.textContent;
-			});
+		let currentIndex = 0; // Индекс за проследяване на текущия ред
+
+		links.forEach(link => {
+    	link.addEventListener("click", (e) => {
+        e.preventDefault();
+        if (currentIndex < rightBoxItems.length) { // Проверяваме дали има свободни редове
+            rightBoxItems[currentIndex].textContent = link.textContent;
+            currentIndex++; // Отиваме на следващия ред
+        } else {
+            alert("Всички полета вече са запълнени!"); // Съобщение, ако всички са заети
+        }
+    });
+});
+
+
+		let images = document.querySelectorAll(".images img")
+
+		images.forEach( image => {
+			image.addEventListener("mouseover", (e) =>
+				console.log("Адресът на изображението е: " + image.src));
 		});
 	</script>
 </body>
