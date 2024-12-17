@@ -144,53 +144,53 @@
 		<div class="tables">
 			<table class="first">
 				<tr>
-					<td>1</td>
-					<td>1</td>
-					<td>1</td>
+					<td></td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr>
-					<td>1</td>
-					<td>1</td>
-					<td>1</td>
+					<td></td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr>
-					<td>1</td>
-					<td>1</td>
-					<td>1</td>
-				</tr>
-			</table>
-			<table class="first">
-				<tr>
-					<td>2</td>
-					<td>2</td>
-					<td>2</td>
-				</tr>
-				<tr>
-					<td>2</td>
-					<td>2</td>
-					<td>2</td>
-				</tr>
-				<tr>
-					<td>2</td>
-					<td>2</td>
-					<td>2</td>
+					<td></td>
+					<td></td>
+					<td></td>
 				</tr>
 			</table>
 			<table class="first">
 				<tr>
-					<td>3</td>
-					<td>3</td>
-					<td>3</td>
+					<td></td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr>
-					<td>3</td>
-					<td>3</td>
-					<td>3</td>
+					<td></td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr>
-					<td>3</td>
-					<td>3</td>
-					<td>3</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+			<table class="first">
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
 				</tr>
 			</table>
 		</div>
@@ -214,12 +214,32 @@
 });
 
 
-		let images = document.querySelectorAll(".images img")
+		let images = document.querySelectorAll(".images img");
 
 		images.forEach( image => {
 			image.addEventListener("mouseover", (e) =>
 				console.log("Адресът на изображението е: " + image.src));
 		});
+
+
+		function getRandomNumber(min, max) {
+    	return Math.floor(Math.random() * (max - min + 1)) + min; // Генериране на число между min и max
+		}
+		let table1 = document.querySelectorAll(".first:nth-of-type(1) td");
+		let table2 = document.querySelectorAll(".first:nth-of-type(2) td");
+		let table3 = document.querySelectorAll(".first:nth-of-type(3) td");
+
+		for (let i = 0; i < table1.length; i++) {
+			let value1 = getRandomNumber(10,20);
+			let value2 = getRandomNumber(0, 10);
+
+			table1[i].textContent = value1;
+			table2[i].textContent = value2;
+
+			table3[i].textContent = value1 - value2;
+
+		}
+
 	</script>
 </body>
 </html>
