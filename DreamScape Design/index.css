@@ -1,0 +1,30 @@
+.nav-container{
+		display: flex;
+		justify-self: center;
+		justify-items: center;
+		background: #1d3557;
+	}
+	.heading{
+		display: flex;
+	}
+	.nav-ul{
+		display: flex;
+		list-style-type: none;
+	}
+	.link{
+		text-decoration: none;
+		padding: 5px;
+		color: #f9f9f9;
+	}
+	.nav-item{
+		margin: 15px;
+	}
+	.register{
+		display: flex;
+
+	}
+	.register input{
+		margin: 8px;
+		padding: 0px;
+		background: #f4d58d;
+	}
