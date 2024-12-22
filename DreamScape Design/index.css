@@ -4,7 +4,6 @@
 	padding: 0;
 	
 }
-
 header{
 	display: flex;
 	justify-content: center;
@@ -12,9 +11,16 @@ header{
 	padding: 30px 10%;
 	background: #03122f;
 }
-.nav{
-	display: flex;
+.heading{
+
 }
+.dreamScape{
+	color: white;
+}
+.design{
+	color: #f1916d;
+}
+
 .nav-links{
 	display: flex;
 	list-style-type: none;
