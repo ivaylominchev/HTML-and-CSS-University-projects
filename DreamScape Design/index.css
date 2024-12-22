@@ -12,7 +12,8 @@ header{
 	background: #03122f;
 }
 .heading{
-
+	font-size: 900;
+	font-weight: bold;
 }
 .dreamScape{
 	color: white;
@@ -20,7 +21,6 @@ header{
 .design{
 	color: #f1916d;
 }
-
 .nav-links{
 	display: flex;
 	list-style-type: none;
@@ -28,10 +28,17 @@ header{
 }
 .nav-item{
 	display: flex;
-	
 	margin: 15px
+
 }
 .link{
 	text-decoration: none;
 	color: #f3dadf;
+	padding: 10px;
+	font-size: 600;
+	font-weight: bold;
+}
+.link:hover{
+	background: #f1916d;
+	color: #19305c;
 }
