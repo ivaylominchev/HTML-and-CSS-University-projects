@@ -2,10 +2,18 @@
 		display: flex;
 		justify-self: center;
 		justify-items: center;
-		background: #1d3557;
+		background: #03122f;
 	}
 	.heading{
 		display: flex;
+		padding: 20px;
+		font-weight: bold;
+	}
+	.dreamScape{
+		color: #ae7dac;
+	}
+	.design{
+		color: #f3dadf;
 	}
 	.nav-ul{
 		display: flex;
@@ -14,17 +22,21 @@
 	.link{
 		text-decoration: none;
 		padding: 5px;
-		color: #f9f9f9;
+		color: #f3dadf;
+		font-weight: bold
 	}
 	.nav-item{
 		margin: 15px;
 	}
-	.register{
-		display: flex;
-
+	.login{
+		padding: 5px;
+		text-decoration: none;
+		color: #f3dadf;
+		font-weight: bold
 	}
-	.register input{
-		margin: 8px;
-		padding: 0px;
-		background: #f4d58d;
+	.register{
+		padding: 5px;
+		text-decoration: none;
+		color: #f3dadf;
+		font-weight: bold
 	}
