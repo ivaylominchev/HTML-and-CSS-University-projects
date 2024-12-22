@@ -1,11 +1,13 @@
 body{
 	margin: 0px;
 }
+
 .nav-container{
 		display: flex;
 		justify-self: center;
 		justify-items: center;
 		background: #03122f;
+		
 
 	}
 	.heading{
@@ -35,17 +37,4 @@ body{
 	.nav-item{
 		margin: 15px;
 	}
-	.login{
-		padding: 5px;
-		text-decoration: none;
-		color: #f3dadf;
-		font-weight: bold;
-		margin-left: 80px;
-		
-	}
-	.register{
-		padding: 5px;
-		text-decoration: none;
-		color: #f3dadf;
-		font-weight: bold
-	}
+	
