@@ -1,14 +1,14 @@
-* {
+*{
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	
 }
-body {
+body{
     margin: 0;
     font-family: Arial, sans-serif;
 }
-header {
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,32 +17,32 @@ header {
     height: 80px;
     position: sticky;
 }
-.heading {
+.heading{
     font-size: 1.5rem;
     font-weight: bold;
     margin-left: 80px;
 }
 
-.dreamScape {
+.dreamScape{
     color: #f3dadf;
     margin-right: 10px;
 }
 
-.design {
+.design{
     color: #f1916d;
 }
-.nav-links {
+.nav-links{
     list-style-type: none;
     display: flex;
-    margin-right: 50px;
+    margin-right: 40px;
     padding: 0;
 }
 
-.nav-item {
+.nav-item{
     margin: 5px;
 }
 
-.link {
+.link{
     text-decoration: none;
     color: #f3dadf;
     font-weight: bold;
@@ -50,32 +50,30 @@ header {
     padding: 15px;
 }
 
-.link:hover {
+.link:hover{
     color: #19305c;
     background-color: #f1916d;
+    box-shadow: 0 0 0 2px #f3dadf;
 }
-
-
-@media (max-width: 768px) {
-    header {
+@media(max-width: 768px){
+    header{
         flex-direction: column;
         align-items: flex-start;
         padding: 10px;
     }
 
-    .nav-links {
+    .nav-links{
         margin-top: 10px;
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
     }
 
-    .nav-item {
+    .nav-item{
         margin: 5px 0;
     }
 }
-
-main {
+main{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +85,6 @@ main {
     color: white;
     padding: 20px;
 }
-
 main .section-heading2 {
     font-size: 2.5rem;
     font-weight: bold;
