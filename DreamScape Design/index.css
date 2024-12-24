@@ -90,3 +90,18 @@ main .section-heading2 {
     font-weight: bold;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
 }
+.about-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-container{
+    
+}
+.about-text{
+
+}
+.button-about-more{
+
+}
