@@ -175,3 +175,29 @@ main .section-heading2 {
 .about-team:hover{
     transform: scale(1.05);
 }
+.services-section{
+    background: #ae7dac;
+    text-align: center;
+    padding: 40px 20px;
+}
+.services-section h2{
+    font-size: 2.5rem;
+    color: #f3dadf;
+    margin-bottom: 30px;
+}
+.services-conatiner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.services-grid{
+
+}
+.service-item{
+
+}
+.service-icon{
+
+}
+.button-services{
+
+}
