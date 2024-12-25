@@ -100,7 +100,7 @@ main .section-heading2 {
 .about-container{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 1194px;
     margin: 0 auto;
     align-items: center;
 }
@@ -132,10 +132,13 @@ main .section-heading2 {
 .about-text p{
     font-size: 1.2rem;
     line-height: 1.5;
-    color: #03122f;
+    color: white;
+    font-weight: bold;
     text-align: justify;
     text-justify: inter-word;
     margin-bottom: 20px;
+    background-color: #413b61;
+    padding: 10px;
 }
 .about-images-container{
     display: flex;
