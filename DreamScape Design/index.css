@@ -96,11 +96,12 @@ main .section-heading2 {
     align-items: center;
     flex-direction: column;
     gap: 30px;
+    background-color: #EEEDED;
 }
 .about-container{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1194px;
+    max-width: 1200px;
     margin: 0 auto;
     align-items: center;
 }
@@ -123,6 +124,7 @@ main .section-heading2 {
 }
 .button-about-more:hover {
     background-color: #ae7dac;
+    box-shadow: 0 0 0 2px #03122f;
 }
 .about-text h2{
     font-size: 2.5rem;
@@ -139,6 +141,7 @@ main .section-heading2 {
     margin-bottom: 20px;
     background-color: #413b61;
     padding: 10px;
+    border-radius: 12px;
 }
 .about-images-container{
     display: flex;
@@ -197,7 +200,11 @@ main .section-heading2 {
     margin-bottom: 30px;
 }
 .service-item{
-
+    background: #03122f;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .service-icon{
 
