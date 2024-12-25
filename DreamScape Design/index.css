@@ -186,8 +186,9 @@ main .section-heading2 {
 }
 .services-section h2{
     font-size: 2.5rem;
-    color: #f3dadf;
+    color: #03122f;
     margin-bottom: 30px;
+    font-weight: bold;
 }
 .services-conatiner{
     max-width: 1200px;
@@ -205,6 +206,10 @@ main .section-heading2 {
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.service-item:hover{
+    transform: scale(1.05);
+    box-shadow: 2 8px 12px rgba(0, 0, 0, 0.20);
 }
 .service-icon{
 
