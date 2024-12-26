@@ -241,7 +241,114 @@ main .section-heading2 {
     background: #f1916d;
 }
 
-.portfolio-section{
+
+/* Основен стил за секцията */
+.portfolio-section {
+    background-color: #121212; /* Тъмен фон */
+    color: #ffffff; /* Бял текст */
+    padding: 50px 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Контейнер за заглавие и описание */
+.portfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Заглавие */
+.portfolio-h2 {
+    margin-bottom: 20px;
+}
+
+.portfolio-h2 span {
+    display: block;
+    color: #888888;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.portfolio-h2 h2 {
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Описание под заглавието */
+.portfolio-p {
+    color: #cccccc;
+    line-height: 1.6;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+/* Грид оформление за проектите */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Стилизиране на всеки проект */
+.portfolio-item {
+    background-color: #1c1c1c; /* Леко по-светъл фон */
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-10px);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Заглавие и описание на проектите */
+.portfolio-item h3 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.portfolio-item p {
+    font-size: 14px;
+    color: #cccccc;
+    margin-bottom: 10px;
+}
+
+.portfolio-item strong {
+    color: #ffffff;
+}
+
+/* Бутон за разглеждане на портфолиото */
+.button-portfolio {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 25px;
+    color: #ffffff;
+    background-color: #444444;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.button-portfolio:hover {
+    background-color: #666666;
+}
+
+/*.portfolio-section{
     background: #1c1c1c;
 }
 .portfolio-container{
@@ -285,4 +392,4 @@ main .section-heading2 {
 }
 .button-portfolio{
 
-}
+}*/
