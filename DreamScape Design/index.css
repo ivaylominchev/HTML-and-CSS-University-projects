@@ -248,26 +248,31 @@ main .section-heading2 {
     display: flex;
     justify-content: space-between;
     align-content: center;
+    padding: 20px 80px;
 
 }
 .portfolio-h2{
     color: white;
-    margin-left: 40px;
-    
 }
 .portfolio-span{
     font-size: 1rem;
     padding: 10px;
+    margin-top: 20px;
+}
+.portfolio-h2 h2{
+    font-size: 2.5rem;
+    padding: 10px;
+    
 }
 .portfolio-p{
-    margin-right: 40px;
     color: white;
 }
 .portfolio-p p{
-    font-size: 1.5rem;
-    margin-top: 20px;
+    font-size: 1rem;
+    margin-top: 10px;
     padding: 10px;
-    width: 630px;
+    width: 600px;
+    line-height: 1.6;
 }
 .portfolio-grid{
 
