@@ -245,13 +245,23 @@ main .section-heading2 {
     background: #1c1c1c;
 }
 .portfolio-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 
 }
 .portfolio-h2{
-
+    color: white;
+    margin: 20px;
+    padding: 10px;
 }
 .portfolio-p{
-
+    margin: 20px;
+    padding: 10px;
+    color: white;
+}
+.portfolio-p p{
+    width: 600px;
 }
 .portfolio-grid{
 
