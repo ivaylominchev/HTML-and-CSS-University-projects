@@ -246,22 +246,28 @@ main .section-heading2 {
 }
 .portfolio-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
 
 }
 .portfolio-h2{
     color: white;
-    margin: 20px;
+    margin-left: 40px;
+    
+}
+.portfolio-h2 span{
+    font-size: 1rem;
     padding: 10px;
 }
 .portfolio-p{
-    margin: 20px;
-    padding: 10px;
+    margin-right: 40px;
     color: white;
 }
 .portfolio-p p{
-    width: 600px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding: 10px;
+    width: 630px;
 }
 .portfolio-grid{
 
