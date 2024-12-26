@@ -241,15 +241,17 @@ main .section-heading2 {
     background: #f1916d;
 }
 
-
 .portfolio-section{
     background: #1c1c1c;
 }
 .portfolio-container{
-    display: flex;
+
 }
-..portfolio-container h2{
-    color: white;
+.portfolio-h2{
+
+}
+.portfolio-p{
+
 }
 .portfolio-grid{
 
