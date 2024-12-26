@@ -16,6 +16,7 @@ header{
     background-color: #03122f;
     height: 80px;
     position: sticky;
+    
 }
 .heading{
     font-size: 1.5rem;
@@ -238,4 +239,27 @@ main .section-heading2 {
 }
 .button-services:hover{
     background: #f1916d;
+}
+
+
+.portfolio-section{
+    background: #1c1c1c;
+}
+.portfolio-container{
+    display: flex;
+}
+..portfolio-container h2{
+    color: white;
+}
+.portfolio-grid{
+
+}
+.portfolio-item{
+
+}
+.portofio-thumbnail{
+
+}
+.button-portfolio{
+
 }
