@@ -242,7 +242,7 @@ main .section-heading2 {
 }
 
 
-/* Основен стил за секцията */
+
 .portfolio-section {
     background-color: #121212; /* Тъмен фон */
     color: #ffffff; /* Бял текст */
@@ -250,14 +250,14 @@ main .section-heading2 {
     font-family: 'Arial', sans-serif;
 }
 
-/* Контейнер за заглавие и описание */
+
 .portfolio-container {
     max-width: 1200px;
     margin: 0 auto;
     text-align: left;
 }
 
-/* Заглавие */
+
 .portfolio-h2 {
     margin-bottom: 20px;
 }
@@ -277,7 +277,7 @@ main .section-heading2 {
     margin-bottom: 20px;
 }
 
-/* Описание под заглавието */
+
 .portfolio-p {
     color: #cccccc;
     line-height: 1.6;
@@ -285,16 +285,16 @@ main .section-heading2 {
     margin-bottom: 40px;
 }
 
-/* Грид оформление за проектите */
+
 .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
-/* Стилизиране на всеки проект */
+
 .portfolio-item {
-    background-color: #1c1c1c; /* Леко по-светъл фон */
+    background-color: #1c1c1c; 
     padding: 20px;
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
@@ -311,7 +311,7 @@ main .section-heading2 {
     margin-bottom: 15px;
 }
 
-/* Заглавие и описание на проектите */
+
 .portfolio-item h3 {
     font-size: 20px;
     color: #ffffff;
@@ -328,7 +328,7 @@ main .section-heading2 {
     color: #ffffff;
 }
 
-/* Бутон за разглеждане на портфолиото */
+
 .button-portfolio {
     display: inline-block;
     margin-top: 30px;
