@@ -189,6 +189,8 @@ main .section-heading2{
 .about-team:hover{
     transform: scale(1.05);
 }
+
+
 .services-section{
     background: #f6f6f4;
     text-align: center;
@@ -253,6 +255,8 @@ main .section-heading2{
     background: #19305c;
     color: white;
 }
+
+
 .portfolio-section{
     background-color: #1b1b1b; 
     color: #f6f6f4; 
@@ -345,9 +349,11 @@ main .section-heading2{
     background-color: #e9c46a;
     color: black;
 }
+
+
 .footer{
     background-color: #1b1b1b;
-    color: #fff;
+    color: #f6f6f6;
     padding: 40px 20px;
     text-align: center;
 }
@@ -360,7 +366,7 @@ main .section-heading2{
 }
 .footer-logo h2{
     font-size: 1.8em;
-    color: #fff;
+    color: #f6f6f6;
 }
 .footer-nav ul{
     list-style: none;
@@ -370,12 +376,13 @@ main .section-heading2{
     margin: 5px 0;
 }
 .footer-nav ul li a{
-    color: #ddd;
+    color: #f6f6f6;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 .footer-nav ul li a:hover{
-    color: #fff;
+    color: #f4a261;
+    text-decoration: underline;
 }
 .footer-contact p{
     margin: 5px 0;
@@ -391,12 +398,12 @@ main .section-heading2{
 }
 .footer-legal{
     font-size: 0.8em;
-    color: #bbb;
+    color: #a8a8a8;
 }
 .footer-legal a{
-    color: #bbb;
+    color: #a8a8a8;
     text-decoration: none;
 }
 .footer-legal a:hover{
-    color: #fff;
+    color: #f6f6f6;
 }
