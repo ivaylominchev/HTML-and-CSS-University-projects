@@ -102,7 +102,7 @@ main .section-heading2{
     align-items: center;
     flex-direction: column;
     gap: 30px;
-    background-color: #dedede;
+    background-color: #f6f6f4;
 }
 .about-container{
     display: flex;
