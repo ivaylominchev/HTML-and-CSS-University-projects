@@ -85,7 +85,7 @@ header{
 }
 
 
-main {
+main{
     
     background-color: #f6f6f4;
 }
@@ -94,40 +94,33 @@ main {
     margin: 0 auto;
     padding: 20px;
 }
-
-.container {
+.container{
     padding: 20px;
-    background-color: #e76f51;
+    background-color: #f4a261;
     margin-bottom: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
-
-h2 {
+h2{
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #444;
+    color: #0b0c10;
     text-align: center;
 }
-
-
-p {
+p{
     margin-bottom: 15px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    color: #0b0c10;
+    text-align: justify;
 }
-
-/* Екип */
 .team-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 }
-
-.team-member {
-    background-color: #fff;
-    border: 1px solid #ddd;
+.team-member{
+    background-color: #dedede;
     border-radius: 8px;
     text-align: center;
     padding: 15px;
@@ -139,69 +132,63 @@ p {
     transform: scale(1.05);
     box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.3);
 }
-.team-member img {
+.team-member img{
     border-radius: 50%;
     width: 120px;
     height: 120px;
     object-fit: cover;
     margin-bottom: 10px;
 }
-
-.team-member h3 {
+.team-member h3{
     font-size: 1.2rem;
     margin-bottom: 5px;
     color: #333;
 }
 
-.team-member p {
+.team-member p{
     font-size: 1rem;
     color: #666;
 }
-
-
-@media (max-width: 768px) {
+@media (max-width: 768px){
     .team-grid {
         flex-direction: column;
         align-items: center;
     }
 
-    .team-member {
+    .team-member{
         width: 100%;
         max-width: 400px;
     }
 }
 
 
-.footer {
+.footer{
     background-color: #1b1b1b;
     color: #fff;
     padding: 40px 20px;
     text-align: center;
 }
 
-.footer-container {
+.footer-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
     align
 }
-
-.footer-logo h2 {
+.footer-logo h2{
     font-size: 1.8rem;
     color: #fff;
 }
-
-.footer-nav ul {
+.footer-nav ul{
     list-style: none;
     padding: 0;
 }
 
-.footer-nav ul li {
+.footer-nav ul li{
     margin: 5px 0;
 }
-
-.footer-nav ul li a {
+.footer-nav ul li a{
     color: #ddd;
     text-decoration: none;
     transition: color 0.3s ease;
