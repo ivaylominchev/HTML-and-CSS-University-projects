@@ -130,7 +130,7 @@ main .section-heading2{
     transition: background-color 0.3s ease;
 }
 .button-about-more:hover{
-    background-color: #ae7dac;
+    background-color: #e76f51;
     box-shadow: 0 0 0 2px #03122f;
 }
 .about-text h2{
