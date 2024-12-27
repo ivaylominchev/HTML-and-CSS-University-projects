@@ -7,8 +7,18 @@
 }
 
 body{
+    padding: 0;
     margin: 0;
-    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+h1{
+    font-family: 'Playfair Display';
+}
+h2, h3{
+    font-family: 'Merriweather';
+}
+p{
+    font-family: 'Lora';
 }
 header{
     display: flex;
@@ -74,6 +84,7 @@ header{
         margin: 5px 0;
     }
 }
+
 
 .footer {
     background-color: #1b1b1b;
