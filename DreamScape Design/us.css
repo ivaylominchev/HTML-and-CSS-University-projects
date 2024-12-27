@@ -86,15 +86,18 @@ header{
 
 
 main {
-    max-width: 1200px;
+    
+    background-color: #f6f6f4;
+}
+.all-items{
+    width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-
 .container {
     padding: 20px;
-    background-color: #fff;
+    background-color: #e76f51;
     margin-bottom: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -102,7 +105,7 @@ main {
 
 
 h2 {
-    font-size: 2em;
+    font-size: 2rem;
     margin-bottom: 20px;
     color: #444;
     text-align: center;
@@ -111,7 +114,7 @@ h2 {
 
 p {
     margin-bottom: 15px;
-    font-size: 1.1em;
+    font-size: 1.1rem;
 }
 
 /* Екип */
@@ -145,13 +148,13 @@ p {
 }
 
 .team-member h3 {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     margin-bottom: 5px;
     color: #333;
 }
 
 .team-member p {
-    font-size: 1em;
+    font-size: 1rem;
     color: #666;
 }
 
@@ -185,7 +188,7 @@ p {
 }
 
 .footer-logo h2 {
-    font-size: 1.8em;
+    font-size: 1.8rem;
     color: #fff;
 }
 
@@ -225,7 +228,7 @@ p {
 
 
 .footer-legal {
-    font-size: 0.8em;
+    font-size: 0.8rem;
     color: #bbb;
 }
 
@@ -236,84 +239,4 @@ p {
 
 .footer-legal a:hover {
     color: #fff;
-}
-
-
-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-
-.container {
-    padding: 20px;
-    background-color: #fff;
-    margin-bottom: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-
-h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #444;
-    text-align: center;
-}
-
-
-p {
-    margin-bottom: 15px;
-    font-size: 1.1em;
-}
-
-/* Екип */
-.team-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-.team-member {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    text-align: center;
-    padding: 15px;
-    width: 300px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.team-member img {
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    margin-bottom: 10px;
-}
-
-.team-member h3 {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-    color: #333;
-}
-
-.team-member p {
-    font-size: 1em;
-    color: #666;
-}
-
-
-@media (max-width: 768px) {
-    .team-grid {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .team-member {
-        width: 100%;
-        max-width: 400px;
-    }
 }
