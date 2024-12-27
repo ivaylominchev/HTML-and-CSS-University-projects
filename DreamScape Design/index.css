@@ -277,7 +277,7 @@ main .section-heading2{
 }
 .portfolio-h2 h2{
     font-size: 36px;
-    color: #ffffff;
+    color: #f6f6f4;
     margin-bottom: 20px;
 }
 .portfolio-p{
@@ -311,7 +311,7 @@ main .section-heading2{
 }
 .portfolio-item h3{
     font-size: 20px;
-    color: #ffffff;
+    color: #f6f6f4;
     margin-bottom: 10px;
 }
 .portfolio-item p{
@@ -330,8 +330,8 @@ main .section-heading2{
     display: inline-block;
     margin-top: 30px;
     padding: 12px 25px;
-    color: #ffffff;
-    background-color: #444444;
+    color: #f6f6f4;
+    background-color: #a8a8a8;
     text-transform: uppercase;
     font-size: 14px;
     font-family: 'Montserrat';
@@ -342,7 +342,8 @@ main .section-heading2{
     text-decoration: none;
 }
 .button-portfolio:hover{
-    background-color: #666666;
+    background-color: #e9c46a;
+    color: black;
 }
 .footer{
     background-color: #1b1b1b;
