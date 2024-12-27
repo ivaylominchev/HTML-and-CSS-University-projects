@@ -5,10 +5,18 @@
 	padding: 0;
 	
 }
-
 body{
     margin: 0;
     font-family: Arial, sans-serif;
+}
+h1{
+    font-family: 'Playfair Display';
+}
+h2, h3{
+    font-family: 'Merriweather';
+}
+p{
+    font-family: 'Lora';
 }
 header{
     display: flex;
@@ -25,12 +33,10 @@ header{
     font-weight: bold;
     margin-left: 70px;
 }
-
 .dreamScape{
     color: #f3dadf;
     margin-right: 10px;
 }
-
 .design{
     color: #e76f51;
 }
@@ -40,11 +46,9 @@ header{
     margin-right: 40px;
     padding: 0;
 }
-
 .nav-item{
     margin: 5px;
 }
-
 .link{
     text-decoration: none;
     color: #f6f6f4;
@@ -52,7 +56,6 @@ header{
     transition: color 0.3s ease;
     padding: 15px;
 }
-
 .link:hover{
     color: #0b0c10;
     background-color: #f4a261;
@@ -88,7 +91,7 @@ main{
     color: #f6f6f4;
     padding: 20px;
 }
-main .section-heading2 {
+main .section-heading2{
     font-size: 2.5rem;
     font-weight: bold;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
@@ -113,19 +116,20 @@ main .section-heading2 {
     text-align: center;
     padding: 20px;
 }
-
 .button-about-more{
     display: inline-block;
     margin-top: 20px;
     padding: 12px 22px;
-    background-color: #413b61;
+    background-color: #19305c;
     color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
     text-decoration: none;
     border-radius: 6px;
     font-size: 1.5em;
     transition: background-color 0.3s ease;
 }
-.button-about-more:hover {
+.button-about-more:hover{
     background-color: #ae7dac;
     box-shadow: 0 0 0 2px #03122f;
 }
@@ -145,7 +149,7 @@ main .section-heading2 {
     text-align: justify;
     text-justify: inter-word;
     margin-bottom: 20px;
-    background-color: #413b61;
+    background-color: #19305c;
     padding: 10px;
     border-radius: 12px;
 }
@@ -186,7 +190,7 @@ main .section-heading2 {
     transform: scale(1.05);
 }
 .services-section{
-    background: #ae7dac;
+    background: #f6f6f4;
     text-align: center;
     padding: 40px 20px;
 }
@@ -207,7 +211,7 @@ main .section-heading2 {
     margin-bottom: 30px;
 }
 .service-item{
-    background: #03122f;
+    background: #19305c;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -235,92 +239,90 @@ main .section-heading2 {
 .button-services{
     display: inline-block;
     padding: 10px 20px;
-    background-color: white;
+    background-color: #f4a261;
     color: black;
     text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: bold;
     border-radius: 6px;
     font-size: 1rem;
+    box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease;
 }
 .button-services:hover{
-    background: #f1916d;
+    background: #03122f;
+    color: white;
 }
-
-
-
-.portfolio-section {
-    background-color: #121212; 
-    color: #ffffff; 
+.portfolio-section{
+    background-color: #1b1b1b; 
+    color: #f6f6f4; 
     padding: 50px 20px;
-    font-family: 'Arial', sans-serif;
 }
-
-
-.portfolio-container {
+.portfolio-container{
     max-width: 1200px;
     margin: 0 auto;
     text-align: left;
 }
-
-
-.portfolio-h2 {
+.portfolio-h2{
     margin-bottom: 20px;
 }
-
-.portfolio-h2 span {
+.portfolio-h2 span{
     display: block;
     color: #888888;
+    font-family: 'Merriweather';
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
-
-.portfolio-h2 h2 {
+.portfolio-h2 h2{
     font-size: 36px;
     color: #ffffff;
     margin-bottom: 20px;
 }
-.portfolio-p {
-    color: #cccccc;
+.portfolio-p{
+    color: #dedede;
     line-height: 1.6;
     font-size: 16px;
     margin-bottom: 40px;
 }
-.portfolio-grid {
+.portfolio-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    width: 1200px;
+    margin: 0 auto;
 }
-.portfolio-item {
-    background-color: #1c1c1c; 
+.portfolio-item{
+    background-color: #0b0c10; 
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 2px 4px 6px #e9c46a;
     transition: transform 0.3s ease-in-out;
 }
-.portfolio-item:hover {
+.portfolio-item:hover{
     transform: translateY(-10px);
 }
-.portfolio-item img {
+.portfolio-item img{
     width: 100%;
     height: auto;
     border-radius: 10px;
     margin-bottom: 15px;
 }
-.portfolio-item h3 {
+.portfolio-item h3{
     font-size: 20px;
     color: #ffffff;
     margin-bottom: 10px;
 }
-.portfolio-item p {
+.portfolio-item p{
     font-size: 14px;
-    color: #cccccc;
+    color: #dedede;
     margin-bottom: 10px;
 }
-.portfolio-item strong {
-    color: #ffffff;
+.portfolio-item strong{
+    color: #f6f6f4;
 }
-.button-portfolio {
+.button-portfolio{
     display: inline-block;
     margin-top: 30px;
     padding: 12px 25px;
@@ -328,81 +330,68 @@ main .section-heading2 {
     background-color: #444444;
     text-transform: uppercase;
     font-size: 14px;
+    font-family: 'Montserrat';
     font-weight: bold;
     text-align: center;
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out;
     text-decoration: none;
 }
-.button-portfolio:hover {
+.button-portfolio:hover{
     background-color: #666666;
 }
-
-.footer {
+.footer{
     background-color: #1b1b1b;
     color: #fff;
     padding: 40px 20px;
     text-align: center;
 }
-
-.footer-container {
+.footer-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
     align
 }
-
-.footer-logo h2 {
+.footer-logo h2{
     font-size: 1.8em;
     color: #fff;
 }
-
-.footer-nav ul {
+.footer-nav ul{
     list-style: none;
     padding: 0;
 }
-
-.footer-nav ul li {
+.footer-nav ul li{
     margin: 5px 0;
 }
-
-.footer-nav ul li a {
+.footer-nav ul li a{
     color: #ddd;
     text-decoration: none;
     transition: color 0.3s ease;
 }
-
-.footer-nav ul li a:hover {
+.footer-nav ul li a:hover{
     color: #fff;
 }
-
-.footer-contact p {
+.footer-contact p{
     margin: 5px 0;
     font-size: 0.9em;
 }
-
-.footer-social a img {
+.footer-social a img{
     width: 30px;
     margin: 0 10px;
     transition: transform 0.3s ease;
 }
-
-.footer-social a:hover img {
+.footer-social a:hover img{
     transform: scale(1.1);
 }
-
-
-.footer-legal {
+.footer-legal{
     font-size: 0.8em;
     color: #bbb;
 }
-
-.footer-legal a {
+.footer-legal a{
     color: #bbb;
     text-decoration: none;
 }
-
-.footer-legal a:hover {
+.footer-legal a:hover{
     color: #fff;
 }
