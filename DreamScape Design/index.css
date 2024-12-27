@@ -213,7 +213,7 @@ main .section-heading2{
     margin-bottom: 30px;
 }
 .service-item{
-    background: #1b1b1b;
+    background: #f4a261;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -235,13 +235,14 @@ main .section-heading2{
 }
 .service-item p{
     font-size: 1rem;
-    color: white;
+    color: black;
+    font-weight: 550;
     line-height: 1.6;
 }
 .button-services{
     display: inline-block;
     padding: 10px 20px;
-    background-color: #f4a261;
+    background-color: #e76f51;
     color: black;
     text-decoration: none;
     font-family: 'Montserrat';
