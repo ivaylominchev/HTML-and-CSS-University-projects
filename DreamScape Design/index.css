@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 *{
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	
 }
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 body{
     margin: 0;
@@ -15,7 +15,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    background-color: #03122f;
+    background-color: #0b0c10;
     height: 80px;
     position: sticky;
     
@@ -32,7 +32,7 @@ header{
 }
 
 .design{
-    color: #f1916d;
+    color: #e76f51;
 }
 .nav-links{
     list-style-type: none;
@@ -47,16 +47,16 @@ header{
 
 .link{
     text-decoration: none;
-    color: #f3dadf;
+    color: #f6f6f4;
     font-weight: bold;
     transition: color 0.3s ease;
     padding: 15px;
 }
 
 .link:hover{
-    color: #19305c;
-    background-color: #f1916d;
-    box-shadow: 0 0 0 2px #f3dadf;
+    color: #0b0c10;
+    background-color: #f4a261;
+    box-shadow: 0 0 0 2px #e9c46a;
 }
 @media(max-width: 768px){
     header{
@@ -85,7 +85,7 @@ main{
     background-image: url('images/living_room.jpg');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: #f6f6f4;
     padding: 20px;
 }
 main .section-heading2 {
@@ -99,7 +99,7 @@ main .section-heading2 {
     align-items: center;
     flex-direction: column;
     gap: 30px;
-    background-color: #EEEDED;
+    background-color: #dedede;
 }
 .about-container{
     display: flex;
@@ -131,8 +131,11 @@ main .section-heading2 {
 }
 .about-text h2{
     font-size: 2.5rem;
-    color: #03122f;
+    color: #0b0c10;
     margin-bottom: 30px;
+}
+.about-text h3{
+    color: #0b0c10;
 }
 .about-text p{
     font-size: 1.2rem;
