@@ -211,7 +211,7 @@ main .section-heading2{
     margin-bottom: 30px;
 }
 .service-item{
-    background: #19305c;
+    background: #1b1b1b;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -250,7 +250,7 @@ main .section-heading2{
     transition: background-color 0.3s ease;
 }
 .button-services:hover{
-    background: #03122f;
+    background: #19305c;
     color: white;
 }
 .portfolio-section{
@@ -321,6 +321,10 @@ main .section-heading2{
 }
 .portfolio-item strong{
     color: #f6f6f4;
+}
+.btn-portfolio{
+    width: 1200px;
+    margin: 0 auto;
 }
 .button-portfolio{
     display: inline-block;
