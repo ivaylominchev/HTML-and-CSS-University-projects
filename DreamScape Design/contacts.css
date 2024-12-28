@@ -7,8 +7,18 @@
 }
 
 body{
+    padding: 0;
     margin: 0;
-    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+h1{
+    font-family: 'Playfair Display';
+}
+h2, h3{
+    font-family: 'Merriweather';
+}
+p{
+    font-family: 'Lora';
 }
 header{
     display: flex;
@@ -77,21 +87,21 @@ header{
 
 
 .contact-section {
-    background-color: #f8f9fa;
+    background-color: #f6f6f4;
     padding: 50px 20px;
-    font-family: 'Arial', sans-serif;
     text-align: center;
 }
 
 .contact-container h2 {
     font-size: 28px;
-    color: #264653;
+    color: #0b0c10;
     margin-bottom: 10px;
 }
 
 .contact-container p {
     font-size: 16px;
-    color: #6c757d;
+    color: #7a7a7a;
+    font-weight: bold;
     margin-bottom: 30px;
 }
 
