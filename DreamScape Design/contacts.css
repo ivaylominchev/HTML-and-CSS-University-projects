@@ -115,10 +115,11 @@ header{
 }
 
 .contact-form {
-    background-color: #ffffff;
+    background-color: white;
     padding: 20px;
+    width: 100%;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .contact-form .form-group {
@@ -127,8 +128,8 @@ header{
 
 .contact-form label {
     display: block;
-    font-size: 14px;
-    color: #264653;
+    font-size: 16px;
+    color: #0b0c10;
     margin-bottom: 5px;
 }
 
@@ -136,11 +137,12 @@ header{
 .contact-form textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #e9c46a;
+    resize: none;
+    border: 2px solid #f4a261;
     border-radius: 5px;
     font-size: 14px;
-    color: #264653;
-    background-color: #f8f9fa;
+    color: #dedede;
+    background-color: #efefef;
 }
 
 .contact-form input:focus,
@@ -170,8 +172,9 @@ header{
 .contact-info {
     background-color: #ffffff;
     padding: 20px;
+    width: 100%;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .contact-info h3 {
