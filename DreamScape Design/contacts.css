@@ -149,7 +149,7 @@ header{
 .contact-form textarea:focus {
     outline: none;
     border-color: #2a9d8f;
-    background-color: #ffffff;
+    background-color: white;
 }
 
 .submit-btn {
@@ -157,7 +157,7 @@ header{
     width: 100%;
     padding: 10px;
     background-color: #e76f51;
-    color: #ffffff;
+    color: white;
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -170,7 +170,7 @@ header{
 }
 
 .contact-info {
-    background-color: #ffffff;
+    background-color: white;
     padding: 20px;
     width: 100%;
     border-radius: 10px;
@@ -179,13 +179,13 @@ header{
 
 .contact-info h3 {
     font-size: 20px;
-    color: #264653;
+    color: #0b0c10;
     margin-bottom: 10px;
 }
 
 .contact-info p {
     font-size: 14px;
-    color: #6c757d;
+    color: #7a7a7a;
     margin-bottom: 10px;
 }
 
@@ -196,7 +196,7 @@ header{
 .social-icon {
     display: inline-block;
     margin-right: 10px;
-    font-size: 14px;
+    font-size: 1.2rem;
     color: #e76f51;
     text-decoration: none;
     transition: color 0.3s ease;
