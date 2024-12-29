@@ -87,7 +87,10 @@ header{
 
 
 .gallery-section{
-
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
 }
 .gallery-intro-text{
 
