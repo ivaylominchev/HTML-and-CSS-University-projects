@@ -8,7 +8,17 @@
 
 body{
     margin: 0;
-    font-family: Arial, sans-serif;
+    padding: 0;
+    background-color: #f6f6f4;
+}
+h1{
+    font-family: 'Playfair Display';
+}
+h2, h3{
+    font-family: 'Merriweather';
+}
+p{
+    font-family: 'Lora';
 }
 header{
     display: flex;
@@ -76,6 +86,21 @@ header{
 }
 
 
+.gallery-section{
+
+}
+.gallery-intro-text{
+
+}
+.gallery-grid{
+
+}
+.gallery-item{
+
+}
+.overlay{
+
+}
 
 .footer {
     background-color: #1b1b1b;
