@@ -89,22 +89,27 @@ main{
     background-color: #f6f6f4;
 }
 .gallery-section{
-    padding: 30px;
+    padding: 50px 20px;
 }
 .images-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 60px;
+    gap: 40px;
 }
 .gallery-container{
-    width: 1500px;
-    margin: 0 auto;
+    displa: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
     padding: 20px;
+    background-color: white;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
 }
 .gallery-image-item{
-    width: 100%;
-    height: 80px;
-    padding: 20px;
+    width: calc(33.333% - 25px);
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 
