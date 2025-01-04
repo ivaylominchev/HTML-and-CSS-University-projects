@@ -180,8 +180,6 @@ main .section-heading2{
 .about-team:hover{
     transform: scale(1.05);
 }
-
-
 .services-section{
     background: #f6f6f4;
     text-align: center;
@@ -247,8 +245,6 @@ main .section-heading2{
     background: #19305c;
     color: white;
 }
-
-
 .portfolio-section{
     background-color: #1b1b1b; 
     color: #f6f6f4; 
@@ -341,10 +337,8 @@ main .section-heading2{
     background-color: #e9c46a;
     color: black;
 }
-
-
 .footer{
-    background-color: #1b1b1b;
+    background-color: #0b0c10;
     color: #f6f6f6;
     padding: 40px 20px;
     text-align: center;
@@ -356,9 +350,14 @@ main .section-heading2{
     gap: 20px;
     align
 }
-.footer-logo h2{
-    font-size: 1.8em;
-    color: #f6f6f6;
+.footer-logo{
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+}
+.footer-logo img{
+    max-height: 105px;
+    width: 110px;
 }
 .footer-nav ul{
     list-style: none;
