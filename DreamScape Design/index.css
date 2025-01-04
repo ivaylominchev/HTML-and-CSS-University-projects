@@ -7,12 +7,19 @@
 
 h1{
     font-family: 'Playfair Display';
+    font-size: 42px;
 }
-h2, h3{
+h2{
     font-family: 'Merriweather';
+    font-size: 40px;
+} 
+h3{
+    font-family: 'Merriweather';
+    font-size: 24px;
 }
 p{
     font-family: 'Lora';
+    font-size: 19px;
 }
 header{
     display: flex;
@@ -83,7 +90,6 @@ main{
     padding: 20px;
 }
 main .section-heading2{
-    font-size: 2.5rem;
     font-weight: bold;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
 }
@@ -125,7 +131,6 @@ main .section-heading2{
     box-shadow: 0 0 0 2px #03122f;
 }
 .about-text h2{
-    font-size: 2.5rem;
     color: #0b0c10;
     margin-bottom: 30px;
 }
@@ -133,7 +138,6 @@ main .section-heading2{
     color: #0b0c10;
 }
 .about-text p{
-    font-size: 1.2rem;
     line-height: 1.5;
     color: white;
     font-weight: bold;
@@ -186,8 +190,7 @@ main .section-heading2{
     padding: 40px 20px;
 }
 .services-section h2{
-    font-size: 2.5rem;
-    color: #03122f;
+    color: #0b0c10;
     margin-bottom: 30px;
     font-weight: bold;
 }
@@ -218,7 +221,6 @@ main .section-heading2{
     margin-bottom: 15px;
 }
 .service-item h3{
-    font-size: 1.5rem;
     color: white;
     margin-bottom: 10px;
 }
@@ -267,8 +269,7 @@ main .section-heading2{
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
-.portfolio-h2 h2{
-    font-size: 36px;
+.portfolio-h2 h2{;
     color: #f6f6f4;
     margin-bottom: 20px;
 }
@@ -390,6 +391,9 @@ main .section-heading2{
 .footer-legal{
     font-size: 0.8em;
     color: #a8a8a8;
+}
+.footer-legal p{
+    font-size: 0.8rem;
 }
 .footer-legal a{
     color: #a8a8a8;
