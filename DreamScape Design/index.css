@@ -3,7 +3,6 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	
 }
 
 h1{
@@ -22,31 +21,17 @@ header{
     padding: 0 20px;
     background-color: #0b0c10;
     height: 110px;
-    position: sticky;
-    
 }
 
 .logo{
-    margin-left: 70px;
+    margin-left: 80px;
     display: flex;
     align-items: center;
 }
 .logo img{
-    max-height: 100px;
-    width: auto;
+    max-height: 105px;
+    width: 110px;
 }
-/*.heading{
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-left: 70px;
-}
-.dreamScape{
-    color: #f3dadf;
-    margin-right: 10px;
-}
-.design{
-    color: #e76f51;
-}*/
 .nav-links{
     list-style-type: none;
     display: flex;
@@ -62,6 +47,7 @@ header{
     font-weight: bold;
     transition: color 0.3s ease;
     padding: 15px;
+    font-size: 20px;
 }
 .link:hover{
     color: #0b0c10;
@@ -74,14 +60,12 @@ header{
         align-items: flex-start;
         padding: 10px;
     }
-
     .nav-links{
         margin-top: 10px;
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
     }
-
     .nav-item{
         margin: 5px 0;
     }
