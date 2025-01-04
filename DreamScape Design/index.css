@@ -5,10 +5,7 @@
 	padding: 0;
 	
 }
-body{
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
+
 h1{
     font-family: 'Playfair Display';
 }
@@ -24,11 +21,21 @@ header{
     align-items: center;
     padding: 0 20px;
     background-color: #0b0c10;
-    height: 80px;
+    height: 110px;
     position: sticky;
     
 }
-.heading{
+
+.logo{
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    max-height: 100px;
+    width: auto;
+}
+/*.heading{
     font-size: 1.5rem;
     font-weight: bold;
     margin-left: 70px;
@@ -39,7 +46,7 @@ header{
 }
 .design{
     color: #e76f51;
-}
+}*/
 .nav-links{
     list-style-type: none;
     display: flex;
