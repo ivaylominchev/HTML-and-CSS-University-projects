@@ -151,9 +151,10 @@ main {
 
 
 .pricing-section {
-    padding: 50px 20px;
+    padding: 50px 25px;
     background-color: #f6f6f4;
     border: 8px solid #264653;
+    border-radius: 15px;
     text-align: center;
 }
 
