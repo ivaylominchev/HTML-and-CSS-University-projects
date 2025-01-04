@@ -6,19 +6,21 @@
 	
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #f6f6f4;
-}
 h1{
     font-family: 'Playfair Display';
+    font-size: 2.6rem;
 }
-h2, h3{
+h2{
     font-family: 'Merriweather';
+    font-size: 2.5rem;
+} 
+h3{
+    font-family: 'Merriweather';
+    font-size: 1.5rem;
 }
 p{
     font-family: 'Lora';
+    font-size: 1.2rem;
 }
 header{
     display: flex;
@@ -26,21 +28,16 @@ header{
     align-items: center;
     padding: 0 20px;
     background-color: #0b0c10;
-    height: 80px;
+    height: 110px;
 }
-.heading{
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-left: 70px;
+.logo{
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
 }
-
-.dreamScape{
-    color: #f3dadf;
-    margin-right: 10px;
-}
-
-.design{
-    color: #e76f51;
+.logo img{
+    max-height: 105px;
+    width: 110px;
 }
 .nav-links{
     list-style-type: none;
@@ -48,19 +45,17 @@ header{
     margin-right: 40px;
     padding: 0;
 }
-
 .nav-item{
     margin: 5px;
 }
-
 .link{
     text-decoration: none;
     color: #f6f6f4;
     font-weight: bold;
     transition: color 0.3s ease;
     padding: 15px;
+    font-size: 20px;
 }
-
 .link:hover{
     color: #0b0c10;
     background-color: #f4a261;
@@ -72,145 +67,130 @@ header{
         align-items: flex-start;
         padding: 10px;
     }
-
     .nav-links{
         margin-top: 10px;
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
     }
-
     .nav-item{
         margin: 5px 0;
     }
 }
 
-.news-section {
+.news-section{
     max-width: 1000px;
     margin: 0px auto;
     padding: 20px;
+    padding-top: 40px;
 }
-
-.news-section h1 {
+.news-section h1{
     text-align: center;
     font-size: 2.5rem;
     color: #e76f51;
     margin-bottom: 20px;
 }
-
-.intro-text {
+.intro-text{
     text-align: center;
     font-size: 1.2em;
     margin-bottom: 40px;
     color: #0b0c10;
     font-weight: bold;
 }
-
-.news-article {
+.news-article{
     margin-bottom: 50px;
 }
-
-.article-content {
+.article-content{
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     gap: 20px;
 }
-
-.article-content.reverse-layout {
+.article-content.reverse-layout{
     flex-direction: row-reverse;
 }
-
-.article-image {
+.article-image{
     width: 45%;
     height: auto;
     border-radius: 10px;
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
 }
-
-.text-content {
+.text-content{
     width: 55%;
 }
-
-.text-content h2 {
+.text-content h2{
     font-size: 1.8rem;
     color: #e76f51;
     margin-bottom: 15px;
 }
-
-.text-content p {
+.text-content p{
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 10px;
     color: #0b0c10;
     text-align: justify;
 }
-
-.footer {
-    background-color: #1b1b1b;
-    color: #fff;
+.footer{
+    background-color: #0b0c10;
+    color: #f6f6f6;
     padding: 40px 20px;
     text-align: center;
 }
-
-.footer-container {
+.footer-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
     align
 }
-
-.footer-logo h2 {
-    font-size: 1.8em;
-    color: #fff;
+.footer-logo{
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
 }
-
-.footer-nav ul {
+.footer-logo img{
+    max-height: 105px;
+    width: 110px;
+}
+.footer-nav ul{
     list-style: none;
     padding: 0;
 }
-
-.footer-nav ul li {
+.footer-nav ul li{
     margin: 5px 0;
 }
-
-.footer-nav ul li a {
-    color: #ddd;
+.footer-nav ul li a{
+    color: #f6f6f6;
     text-decoration: none;
     transition: color 0.3s ease;
 }
-
-.footer-nav ul li a:hover {
-    color: #fff;
+.footer-nav ul li a:hover{
+    color: #f4a261;
+    text-decoration: underline;
 }
-
-.footer-contact p {
+.footer-contact p{
     margin: 5px 0;
-    font-size: 0.9em;
+    font-size: 0.9rem;
 }
-
-.footer-social a img {
+.footer-social a img{
     width: 30px;
     margin: 0 10px;
     transition: transform 0.3s ease;
 }
-
-.footer-social a:hover img {
+.footer-social a:hover img{
     transform: scale(1.1);
 }
-
-
-.footer-legal {
-    font-size: 0.8em;
-    color: #bbb;
+.footer-legal{
+    font-size: 0.8rem;
+    color: #a8a8a8;
 }
-
-.footer-legal a {
-    color: #bbb;
+.footer-legal p{
+    font-size: 0.8rem;
+}
+.footer-legal a{
+    color: #a8a8a8;
     text-decoration: none;
 }
-
-.footer-legal a:hover {
-    color: #fff;
+.footer-legal a:hover{
+    color: #f6f6f6;
 }
