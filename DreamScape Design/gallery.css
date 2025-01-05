@@ -111,6 +111,9 @@ main{
     object-fit: cover;
     border-radius: 5px;
 }
+.gallery-image-item:hover{
+    transform: scale(1.06);
+}
 .highlighted{
     box-shadow: 5px 5px 10px 15px rgba(233, 196, 106, 0.8);
     animation: highlight-animation 2s ease-out;
