@@ -251,3 +251,64 @@ header{
         font-size: 0.8rem;
     }
 }
+
+@media(max-width: 1024px) {
+    .article-content {
+        flex-direction: row;
+    }
+
+    .article-image {
+        width: 40%;
+    }
+
+    .text-content h2 {
+        font-size: 1.6rem;
+    }
+
+    .text-content p {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 768px) {
+    .article-content {
+        flex-direction: column;
+    }
+
+    .article-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-content {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .text-content h2 {
+        font-size: 1.4rem;
+    }
+
+    .text-content p {
+        font-size: 0.95rem;
+    }
+}
+
+@media(max-width: 480px) {
+    .article-content {
+        padding: 15px;
+    }
+
+    .article-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-content h2 {
+        font-size: 1.2rem;
+    }
+
+    .text-content p {
+        font-size: 0.9rem;
+    }
+}

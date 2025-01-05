@@ -288,3 +288,21 @@ main{
         font-size: 0.8rem;
     }
 }
+
+@media(max-width: 1024px) {
+    .images-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}
+
+@media(max-width: 768px) {
+    .images-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+@media(max-width: 480px) {
+    .images-grid {
+        grid-template-columns: 1fr;
+    }
+}
