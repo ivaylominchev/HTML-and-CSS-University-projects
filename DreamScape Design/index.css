@@ -297,7 +297,7 @@ main .section-heading2{
 }
 .portfolio-item img{
     width: 100%;
-    height: auto;
+    height: 400px;
     border-radius: 10px;
     margin-bottom: 15px;
 }
